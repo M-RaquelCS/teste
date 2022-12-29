@@ -30,6 +30,10 @@ namespace Prototipov1.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("TEXT");
 
+                    b.Property<byte[]>("Qrcode")
+                        .IsRequired()
+                        .HasColumnType("BLOB");
+
                     b.Property<string>("Telefone")
                         .HasColumnType("TEXT");
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\codes\\mouratech\\card-visit\\teste\\Prototipo-v1.csproj": {}
+    "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj": {}
   },
   "projects": {
-    "D:\\codes\\mouratech\\card-visit\\teste\\Prototipo-v1.csproj": {
+    "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\codes\\mouratech\\card-visit\\teste\\Prototipo-v1.csproj",
+        "projectUniqueName": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj",
         "projectName": "Prototipo-v1",
-        "projectPath": "D:\\codes\\mouratech\\card-visit\\teste\\Prototipo-v1.csproj",
-        "packagesPath": "C:\\Users\\M-Raq\\.nuget\\packages\\",
-        "outputPath": "D:\\codes\\mouratech\\card-visit\\teste\\obj\\",
+        "projectPath": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj",
+        "packagesPath": "C:\\Users\\20192ewbj0205\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M-Raq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20192ewbj0205\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,6 +63,10 @@
             "QRCoder": {
               "target": "Package",
               "version": "[1.4.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [

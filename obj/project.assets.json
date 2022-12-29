@@ -550,7 +550,7 @@
           }
         }
       },
-      "System.Text.Json/7.0.0": {
+      "System.Text.Json/7.0.1": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
@@ -1248,10 +1248,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/7.0.0": {
-      "sha512": "DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
+    "System.Text.Json/7.0.1": {
+      "sha512": "OtDEmCCiNl8JAduFKZ/r0Sw6XZNHwIicUYy/mXgMDGeOsZLshH37qi3oPRzFYiryVktiMoQLByMGPtRCEMYbeQ==",
       "type": "package",
-      "path": "system.text.json/7.0.0",
+      "path": "system.text.json/7.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1314,7 +1314,7 @@
         "lib/net7.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.7.0.0.nupkg.sha512",
+        "system.text.json.7.0.1.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1326,23 +1326,24 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.1",
       "Microsoft.EntityFrameworkCore.tools >= 7.0.1",
-      "QRCoder >= 1.4.3"
+      "QRCoder >= 1.4.3",
+      "System.Text.Json >= 7.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\M-Raq\\.nuget\\packages\\": {}
+    "C:\\Users\\20192ewbj0205\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\codes\\mouratech\\card-visit\\teste\\Prototipo-v1.csproj",
+      "projectUniqueName": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj",
       "projectName": "Prototipo-v1",
-      "projectPath": "D:\\codes\\mouratech\\card-visit\\teste\\Prototipo-v1.csproj",
-      "packagesPath": "C:\\Users\\M-Raq\\.nuget\\packages\\",
-      "outputPath": "D:\\codes\\mouratech\\card-visit\\teste\\obj\\",
+      "projectPath": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj",
+      "packagesPath": "C:\\Users\\20192ewbj0205\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\M-Raq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\20192ewbj0205\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1391,6 +1392,10 @@
           "QRCoder": {
             "target": "Package",
             "version": "[1.4.3, )"
+          },
+          "System.Text.Json": {
+            "target": "Package",
+            "version": "[7.0.1, )"
           }
         },
         "imports": [

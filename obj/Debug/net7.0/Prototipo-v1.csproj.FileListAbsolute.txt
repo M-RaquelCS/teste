@@ -184,3 +184,4 @@ D:\codes\mouratech\card-visit\teste\obj\Debug\net7.0\refint\Prototipo-v1.dll
 D:\codes\mouratech\card-visit\teste\obj\Debug\net7.0\Prototipo-v1.pdb
 D:\codes\mouratech\card-visit\teste\obj\Debug\net7.0\Prototipo-v1.genruntimeconfig.cache
 D:\codes\mouratech\card-visit\teste\obj\Debug\net7.0\ref\Prototipo-v1.dll
+C:\Users\20192ewbj0205\Documents\.net\card-visit\teste\bin\Debug\net7.0\QRCoder.dll

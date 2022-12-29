@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,10 +14,10 @@ var app = builder.Build();
 
 app.UseCors();
 
-app.MapPost("/Colaborador/", (BancoDeDados bd, Colaborador colaborador) =>
+app.MapPost("/Colaborador/", async (BancoDeDados bd, Colaborador colaborador) =>
 {   
-    bd.Add(colaborador);
-    bd.SaveChangesAsync();
+    bd.AddAsync(colaborador);
+    await bd.SaveChangesAsync();
     return Results.Ok(colaborador);
 });
 
@@ -25,12 +26,12 @@ app.MapGet("/Colaborador/", async (BancoDeDados bd) => {
     return Results.Ok(colaboradores);
 } );
 
-/*app.MapGet("/Colaborador/{id}", async (BancoDeDados bd, string  id, Colaborador colaborador) => {
-    var colaborador1 = await bd.colaborador.FirstOrDefaultAsync(id);
+app.MapGet("/Colaborador/{id}", async (BancoDeDados bd, int id) => {
+    var colaborador1 = await bd.colaborador.FirstOrDefaultAsync(colaborador => colaborador.Id == id);
     return Results.Ok(colaborador1);
-} );*/
+} );
 
-app.MapPut("/Colaborador/{id}", (BancoDeDados bd, int id, Colaborador colaborador) => 
+app.MapPut("/Colaborador/editar/{id}", (BancoDeDados bd, int id, Colaborador colaborador) => 
 {
     bd.Update(colaborador);
     bd.SaveChangesAsync();
