@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20192ewbj0060\\Documents\\Integracao-C#\\Prototipo-v1\\Prototipo-v1.csproj": {}
+    "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20192ewbj0060\\Documents\\Integracao-C#\\Prototipo-v1\\Prototipo-v1.csproj": {
+    "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20192ewbj0060\\Documents\\Integracao-C#\\Prototipo-v1\\Prototipo-v1.csproj",
+        "projectUniqueName": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj",
         "projectName": "Prototipo-v1",
-        "projectPath": "C:\\Users\\20192ewbj0060\\Documents\\Integracao-C#\\Prototipo-v1\\Prototipo-v1.csproj",
-        "packagesPath": "C:\\Users\\20192ewbj0060\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20192ewbj0060\\Documents\\Integracao-C#\\Prototipo-v1\\obj\\",
+        "projectPath": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\Prototipo-v1.csproj",
+        "packagesPath": "C:\\Users\\20192ewbj0205\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20192ewbj0205\\Documents\\.net\\card-visit\\teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20192ewbj0060\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\20192ewbj0205\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
