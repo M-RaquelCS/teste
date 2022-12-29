@@ -25,10 +25,10 @@ app.MapGet("/Colaborador/", async (BancoDeDados bd) => {
     return Results.Ok(colaboradores);
 } );
 
-app.MapGet("/Colaborador/{id}", async (BancoDeDados bd, string  id, Colaborador colaborador) => {
+/*app.MapGet("/Colaborador/{id}", async (BancoDeDados bd, string  id, Colaborador colaborador) => {
     var colaborador1 = await bd.colaborador.FirstOrDefaultAsync(id);
     return Results.Ok(colaborador1);
-} );
+} );*/
 
 app.MapPut("/Colaborador/{id}", (BancoDeDados bd, int id, Colaborador colaborador) => 
 {

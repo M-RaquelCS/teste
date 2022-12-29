@@ -1,3 +1,5 @@
+using QRCoder;
+
 public class Colaborador{
     public string? Nome {get; set;}
     public string? Email {get; set;}
@@ -5,7 +7,9 @@ public class Colaborador{
     public string? Telefone {get; set;}
     public int Id { get; protected set; }
 
-    public Colaborador(){
+    public byte Qrcode {get; set;}
+
+ public Colaborador(){
 
     }
 
@@ -17,7 +21,14 @@ public class Colaborador{
         Telefone = telefone;
     }
 
-    public Colaborador (int Id, string nome, string email, string cargo, string telefone) : this(nome, email, cargo, telefone){
+    public Colaborador (int Id, string nome, string email, string cargo, string telefone, byte Qrcode) : this(nome, email, cargo, telefone){
 
     }
+
+    QRCodeGenerator qrGenerator = new QRCodeGenerator();
+    QRCodeData qrCodeData = qrGenerator.CreateQrCode("email", QRCodeGenerator.ECCLevel.Q);
+    BitmapByteQRCode qrCode = new BitmapByteQRCode(QrCodeData);
+    byte[] qrCodeAsBitmapByteArr = QrCode.GetGraphic(20);
+
+
 }   
